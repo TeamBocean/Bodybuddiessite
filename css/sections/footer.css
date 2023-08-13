@@ -1,0 +1,109 @@
+.footer{
+    padding: 20px 0;
+    max-width: 1280px;
+    line-height: 1.5;
+}
+
+.container{
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: greenyellow;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col li a:hover{
+    color: white;
+    padding-left: 8px;
+}
+.social-links{
+    display: flex;
+}
+.footer-col .social-links a {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    display: flex;
+    border-radius: 50%;
+    transition: all 0.5 ease;
+}
+
+.footer-col .social-links ion-icon{
+    margin: auto;
+    width: 25px;
+    height: 25px;
+}
+.footer-col .social-links a:hover {
+
+    background-color: white;
+
+  & ion-icon{
+        color: #24262b;
+    }
+    
+    
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center  ;
+}
+
+.footer-bottom p {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-bottom hr{
+   
+   margin-top: 40px;
+   margin-right: 20px;
+   margin-left: 20px;
+    border: none;
+    height: 1px;
+    background: grey;
+}

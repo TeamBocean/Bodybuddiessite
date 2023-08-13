@@ -46,16 +46,36 @@
 .contact__info {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 50px;
+  
 }
 .contact_info-email {
   display: flex;
-  gap: 20px;
+  gap: 50px;
 }
-.contact_info-email img {
-  width: 30px;
-  background: var(--secondary-color);
-  border-radius: 50%;
 
+/* background: var(--secondary-color); */
+
+.contact__info a {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: var(--secondary-color);
+  margin: 0 10px 10px 0;
+  display: flex;
+  border-radius: 50%;
+  transition: all 0.5 ease;
+}
+
+.contact__info ion-icon{
+  color: black;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+}
+
+.contact__info__div{
+display: flex;
+align-items: center;
 }
 
