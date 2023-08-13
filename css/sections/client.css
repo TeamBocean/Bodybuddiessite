@@ -1,0 +1,73 @@
+
+.clients__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients-info__title {
+  font-size: 24px;
+  background: var(--secondary-color);
+  padding: 8px 20px;
+  border-radius: 5px;
+  max-width: max-content;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.clients-info__subtitle {
+  font-size: 32px;
+  font-family: var(--catamaran);
+  margin-bottom: 20px;
+}
+
+.testimonials__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.testimonials__item {
+  flex-basis: calc(33.33% - 20px); /* 33.33% for 3 items and 20px is a gap */
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.testimonials__card {
+  background-color: black;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: var(--secondary-color);
+  width: 100%;   /* Make each card take the full width of its container */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.testimonials__name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.testimonials__rating {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.testimonials__text {
+  font-size: 1rem;
+  color: white;
+  flex-grow: 1;  /* Allow the text area to grow and push the elements above and below it */
+}
+
+/* Responsive layout for smaller devices */
+@media (max-width: 768px) {
+  .testimonials__item {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+  }
+}

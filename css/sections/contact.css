@@ -1,0 +1,61 @@
+.contact__container {
+  display: flex;
+}
+.contact__map {
+  width: 50%;
+  border: none;
+}
+
+.contact__map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact__form-container {
+  flex: 1;
+  padding-left: 30px; /* Creates some space between map and form */
+  width: 50%;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input,
+.contact__textarea {
+  margin-bottom: 20px;
+  padding: 8px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button Styling */
+.contact__button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  color: black;
+  background-color: var(--secondary-color);
+  width: 30%;
+}
+
+.contact__info {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.contact_info-email {
+  display: flex;
+  gap: 20px;
+}
+.contact_info-email img {
+  width: 30px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+
+}
+

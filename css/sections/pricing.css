@@ -1,0 +1,180 @@
+.pricing__title {
+  font-size: 24px;
+  background: var(--secondary-color);
+  padding: 8px 20px;
+  border-radius: 5px;
+  max-width: max-content;
+  color: black;
+}
+
+.pricing__subtitle {
+  font-size: 28px;
+  font-family: var(--catamaran);
+  text-align: center;
+}
+
+.card__title {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Grifter', 'sans-serif';
+  z-index: 3; /* Added for higher stacking order */
+}
+
+.card__price {
+  color: var(--secondary-color);
+  font-size: 34px;
+  font-weight: 700;
+  z-index: 3; /* Added for higher stacking order */
+}
+
+.card__session {
+  margin-top: -10px;
+  z-index: 3; /* Added for higher stacking order */
+}
+
+.card__session-frequency {
+  z-index: 3; /* Added for higher stacking order */
+  margin-top: -10px;
+}
+
+.pricing__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricing__content {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;  
+}
+
+.pricing__card {
+  flex-basis: calc(33.33% - 30px); 
+  background: black;
+  border-radius: 5px;
+  padding: 20px 80px; 
+  border: 2px solid var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__cta-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  color: black;
+  background-color: var(--secondary-color);
+  font-family: var(--catamaran);
+  font-weight: 700;
+  z-index: 3; /* Added for higher stacking order */
+}
+
+.card__details{
+  text-decoration: none;
+  transition: text-decoration 0.1s ease;
+  z-index: 3; /* Added for higher stacking order */
+}
+.card__details:hover {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.pricing__card.pricing__card-2 {
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+  
+.pricing__card.pricing__card-2 h2 {
+    z-index: 3;
+    color: white;
+    font-size: 2em;
+}
+
+.pricing__card.pricing__card-2::before,
+.pricing__card.pricing__card-2::after {
+    z-index: 1; 
+}
+
+.pricing__card.pricing__card-2::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(48, 255, 96));
+    height: 130%;
+    animation: rotBGimg 8s linear infinite;
+    transition: all 0.2s linear;
+}
+  
+@keyframes rotBGimg {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+  
+.pricing__card.pricing__card-2::after {
+    content: '';
+    position: absolute;
+    background: black;
+    inset: 5px;
+    border-radius: 5px;
+}  
+
+.pricing__card.pricing__card-2:hover:before {
+    background-image: linear-gradient(180deg, rgb(81, 255, 0), purple);
+    animation: rotBGimg 8s linear infinite;
+} 
+  
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px; 
+  width: 90%;
+  z-index: 3; /* Added for higher stacking order */
+}
+
+.close-btn {
+  display: block;
+  text-align: right;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+
+.blur-effect {
+  filter: blur(5px);
+  pointer-events: none;
+}

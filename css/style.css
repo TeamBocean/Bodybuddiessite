@@ -1,0 +1,60 @@
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&display=swap');
+
+/* Css File Imports */
+@import url("sections/header.css");
+@import url("sections/hero.css");
+@import url("sections/about.css");
+@import url("sections/pricing.css");
+@import url("sections/client.css");
+@import url("sections/about.css");
+@import url("sections/footer.css");
+@import url("sections/contact.css");
+
+/* CSS Variables */
+
+:root {
+  --primary-color: #111111;
+  --secondary-color: #B0E356;
+
+  --black-200:
+
+
+  --playfair-display: "Playfair Display", serif;
+  --plus-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  --catamaran:'Catamaran', sans-serif;;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: white;
+  font-family: 'Poppins', 'sans-serif';
+  
+}
+
+body {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+
+
+.color-green {
+  color: var(--secondary-color);
+}

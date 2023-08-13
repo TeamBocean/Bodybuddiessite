@@ -1,0 +1,112 @@
+.hero__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0 50px;
+
+}
+
+.hero__content img {
+  width: 100%;
+}
+
+.hero__title {
+  font-size: 64px;
+  font-family: 'Grifter', 'sans-serif';
+  margin-top: 80px;
+}
+
+.hero__description {
+  font-size: 16px;
+  font-family: var(--plus-jakarta-sans);
+  margin-bottom: 30px;
+}
+
+.stripe {
+  background-color: var(--secondary-color);  
+  height: 80px;  
+  width: 100vw;
+  position: relative; 
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-bottom: 50px;
+}
+.hero__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.playstore-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 0.625rem 1.5rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  outline: 0;
+  transition: all  .2s ease;
+  text-decoration: none;
+}
+
+.playstore-button:hover {
+  background-color: transparent;
+  color: rgba(0, 0, 0, 1);
+}
+
+.icon {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.texts {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+
+.text-1 {
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-2 {
+  font-weight: 600;
+}
+
+.stripe {
+  display: flex;
+  align-items: center;
+  background-color: var(--secondary-color);
+  height: 70px;
+  position: relative;
+  overflow: hidden;  /* To ensure the overflowing part of the text is hidden */
+}
+
+.scrolling-text {
+  white-space: nowrap;  /* To ensure the text doesn't wrap to the next line */
+  position: relative;
+  left: 100%;  /* Start from the right end of the container */
+  animation: scrollText 25s linear infinite; /* Animation to scroll the text */
+  color: black;
+  font-family: 'Grifter', 'sans-serif';
+  font-size: 40px;
+  
+}
+
+@keyframes scrollText {
+  0% {
+    left: 100%;  /* Starting position */
+  }
+  100% {
+    left: -100%;  /* Ending position */
+  }
+}
