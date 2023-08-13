@@ -34,8 +34,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   color: white;
-  font-family: 'Poppins', 'sans-serif';
-  
+  font-family:  "Plus Jakarta Sans", sans-serif;;
 }
 
 body {
@@ -58,4 +57,8 @@ section {
 
 .color-green {
   color: var(--secondary-color);
+}
+
+.logo{
+  height: 50px;
 }
