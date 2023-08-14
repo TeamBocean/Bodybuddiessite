@@ -79,3 +79,8 @@ display: flex;
 align-items: center;
 }
 
+#contact__heading{
+  text-align: center;
+ align-self: center;
+  margin-bottom: 40px;
+}

@@ -1,3 +1,16 @@
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us video {
+  margin-top: 100px;
+  width: 100%;
+  border-radius: 20px;
+}
+
 .about-us__container {
   display: flex;
   align-items: center;
