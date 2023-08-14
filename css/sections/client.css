@@ -16,9 +16,9 @@
 }
 
 .clients-info__subtitle {
-  font-size: 32px;
-  font-family: var(--catamaran);
-  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: 'Grifter', 'sans-serif';;
+  margin-bottom: 40px;
 }
 
 .testimonials__list {

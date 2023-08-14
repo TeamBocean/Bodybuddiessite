@@ -8,9 +8,11 @@
 }
 
 .pricing__subtitle {
-  font-size: 28px;
-  font-family: var(--catamaran);
+  font-size: 40px;
+  font-family: 'Grifter', 'sans-serif';;
   text-align: center;
+  line-height: 60px;
+  margin-bottom: 20px;
 }
 
 .card__title {
@@ -121,6 +123,13 @@
     height: 130%;
     animation: rotBGimg 8s linear infinite;
     transition: all 0.2s linear;
+}
+.card__session__pricing{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ text-align: center;
+ gap: 10px;
 }
   
 @keyframes rotBGimg {

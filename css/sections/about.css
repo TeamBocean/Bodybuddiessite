@@ -23,8 +23,8 @@
 }
 
 .about-us__subtitle {
-  font-size: 32px;
-  font-family: var(--catamaran);
+  font-size: 40px;
+  font-family: 'Grifter', 'sans-serif';;
   margin-bottom: 20px;
 }
 .about-us__description {

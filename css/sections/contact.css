@@ -25,7 +25,7 @@
 .contact__input,
 .contact__textarea {
   margin-bottom: 20px;
-  padding: 8px;
+  padding: 15px;
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -33,7 +33,7 @@
 
 /* Button Styling */
 .contact__button {
-  padding: 10px 20px;
+  padding: 15px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;

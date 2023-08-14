@@ -107,3 +107,7 @@ ul{
     height: 1px;
     background: grey;
 }
+
+.footer-bottom span{
+   color: rgb(29 78 216);
+}

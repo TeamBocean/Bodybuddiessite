@@ -32,12 +32,21 @@
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
+
+.stripe span {
+  color: black;
+  font-family:  'Grifter', 'sans-serif';
+  margin-right: 100px;
+  font-weight: bold;
+}
+
 .hero__buttons {
   display: flex;
   gap: 20px;
 }
+
 
 .playstore-button {
   display: inline-flex;
