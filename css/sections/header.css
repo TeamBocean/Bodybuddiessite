@@ -1,14 +1,14 @@
 
 .header__nav {
   display: flex;
-  /* position: sticky; */
-  /* top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
   left: 0;
-  right: 0; */
-  /* padding-left: 100px;
-  padding-right: 100px; */
+  padding: 0 15%;
+  background-color: #111111;
 
- 
 }
 
 

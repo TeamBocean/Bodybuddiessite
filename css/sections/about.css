@@ -5,11 +5,11 @@
   align-items: center;
 }
 
-.about-us video {
+/* .about-us video {
   margin-top: 100px;
   width: 100%;
   border-radius: 20px;
-}
+} */
 
 .about-us__container {
   display: flex;
@@ -21,6 +21,7 @@
 
 .about-us__container img {
   width: 30%;
+  border-radius: 5px;
 }
 
 

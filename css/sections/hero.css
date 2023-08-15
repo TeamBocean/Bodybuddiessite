@@ -1,10 +1,20 @@
+.hero{
+  margin-top: 100px;
+}
+
+
 .hero__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 50px;
   padding: 0 50px;
 
+}
+
+video{
+  margin-top: 70px;
+  border-radius: 5px;
 }
 
 .hero__content img {
