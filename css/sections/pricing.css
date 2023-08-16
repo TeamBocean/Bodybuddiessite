@@ -131,6 +131,17 @@
  text-align: center;
  gap: 10px;
 }
+
+.day{
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 18px;
+}
+.lunchtime{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
   
 @keyframes rotBGimg {
     from {

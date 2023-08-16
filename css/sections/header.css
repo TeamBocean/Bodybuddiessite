@@ -19,7 +19,7 @@
 .header__logo ion-icon{
   padding: 20px 0px;
   margin-left: 10px;
-  font-size: 24px;
+  font-size: 32px;
 }
 .header__logo {
   flex: 1;
@@ -49,8 +49,8 @@
   border-radius: 5px;
   cursor: pointer;
   font-weight: 700;
-  color: white;
-  background-color: #3A6A31;
+  color: black;
+  background-color: var(--secondary-color);
   font-family: "Plus Jakarta Sans", sans-serif;;
   
 }
