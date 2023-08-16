@@ -6,16 +6,26 @@
   z-index: 100;
   top: 0;
   left: 0;
-  padding: 0 15%;
+  padding: 0 5%;
   background-color: #111111;
 
 }
 
+.logo{
+  height: 50px;
+  
+}
 
+.header__logo ion-icon{
+  padding: 20px 0px;
+  margin-left: 10px;
+  font-size: 24px;
+}
 .header__logo {
   flex: 1;
   display: flex;
-  position: relative;
+  align-items: center;
+  gap: 15px;
   padding: 20px;
 }
 
@@ -34,13 +44,13 @@
 }
 
 .header__btn-started {
-  padding: 10px 20px;
+  padding: 20px 50px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-weight: 700;
-  color: black;
-  background-color: var(--secondary-color);
+  color: white;
+  background-color: #3A6A31;
   font-family: "Plus Jakarta Sans", sans-serif;;
   
 }

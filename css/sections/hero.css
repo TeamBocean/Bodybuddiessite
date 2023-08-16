@@ -28,10 +28,14 @@ video{
 }
 
 .hero__description {
-  font-size: 16px;
+  font-size: 28px;
+  font-weight: 400;
   font-family: var(--plus-jakarta-sans);
   margin-bottom: 30px;
+  line-height: 3rem;
+  text-transform: uppercase;
 }
+
 
 .stripe {
   background-color: var(--secondary-color);  
@@ -53,10 +57,19 @@ video{
 }
 
 .hero__buttons {
+  max-width: 400px;
   display: flex;
   gap: 20px;
 }
 
+.session__button{
+  max-width: 400px; 
+  text-align: center;
+  display: block;
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  margin-bottom: 5px  ;
+}
 
 .playstore-button {
   display: inline-flex;
