@@ -20,7 +20,7 @@
 }
 
 .about-us__container img {
-  width: 30%;
+  /* width: 30%; */
   border-radius: 5px;
 }
 
@@ -140,4 +140,25 @@ button {
  
  button:hover .button-text {
   color: white;
+ }
+
+ @media (max-width: 480px) {
+
+ }
+ 
+ @media (max-width: 768px) {
+ 
+ }
+ 
+ @media (max-width: 1024px) {
+ 
+ }
+ 
+ @media (max-width: 1200px) {
+  .about-us__container {
+    flex-direction: column-reverse;
+  }
+  .mark{
+
+  }
  }

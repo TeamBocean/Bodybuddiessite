@@ -1,6 +1,8 @@
 
 .header__nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: fixed;
   width: 100%;
   z-index: 100;
@@ -8,7 +10,7 @@
   left: 0;
   padding: 0 5%;
   background-color: #111111;
-
+ height: 100px;
 }
 
 .logo{
@@ -21,8 +23,8 @@
   margin-left: 10px;
   font-size: 32px;
 }
+
 .header__logo {
-  flex: 1;
   display: flex;
   align-items: center;
   gap: 15px;
@@ -30,17 +32,16 @@
 }
 
 .header__menu {
-  padding: 20px;
-  flex: 1.2;
-  display: flex;
+  float: right;
+  margin-right: 20px;
   align-items: center;
-  justify-content: flex-end;
-  gap: 64px;
-  list-style: none;
 }
 
 .header__menu li {
+  display: inline-block;
+  margin: 0 20px;
   font-size: 16px;
+ 
 }
 
 .header__btn-started {
@@ -55,4 +56,55 @@
   
 }
 
+.checkbtn {
+  font-size: 30px;
+  float: right;
+  display: none;
+  cursor: pointer;
+  line-height: 80px;
+  margin-right: 40px;
+}
+
+#check{
+  display: none;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+  .checkbtn{
+    display: block;
+  }
+
+  .header__menu {
+    position: fixed;
+    width: 100%;
+   ;
+    background-color: #111111;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    z-index: 100;
+  }
+  .header__menu li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  #check:checked ~ .header__menu{
+    left: 0;
+  }
+
+}
+
+@media (max-width: 1200px) {
+
+}
 

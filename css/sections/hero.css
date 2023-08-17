@@ -5,8 +5,7 @@
 
 .hero__content {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
   gap: 50px;
   padding: 0 50px;
 
@@ -141,4 +140,28 @@ video{
   100% {
     left: -100%;  /* Ending position */
   }
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1200px) {
+.hero__content{
+  flex-direction: column;
+}
+.text-wrapper{
+  text-align: center;
+}
+.hero__buttons{
+  
+}
 }

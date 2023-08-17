@@ -46,13 +46,11 @@
 .contact__info {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
   
+  margin-top: 50px;
+ gap: 40px;
 }
-.contact_info-email {
-  display: flex;
-  gap: 50px;
-}
+
 
 /* background: var(--secondary-color); */
 
@@ -83,4 +81,46 @@ align-items: center;
   text-align: center;
  align-self: center;
   margin-bottom: 40px;
+}
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 1200px) {
+ .contact__container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .contact__map{
+  width: 100%;
+  padding: 0px 20px;
+  height: 300px;
+ }
+
+ .contact__form-container{
+  margin-top: 20px;
+  width: 100%;
+  padding: 0px 20px;
+
+ }
+
+ .contact__button{
+  width: 100%;
+ }
+
+ .contact__info{
+  flex-direction: column;
+  margin-left: 20px;
+ }
+ 
 }

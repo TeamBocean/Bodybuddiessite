@@ -35,12 +35,14 @@
   scroll-behavior: smooth;
   color: white;
   font-family:  "Plus Jakarta Sans", sans-serif;;
+  /* overflow-x: hidden; */
 }
 
 body {
   max-width: 1280px;
   margin: 0 auto;
   background-color: var(--primary-color);
+  
 }
 
 a {
