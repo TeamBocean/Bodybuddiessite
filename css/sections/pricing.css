@@ -142,6 +142,11 @@
   flex-direction: column;
   gap: 10px;
 }
+.timing {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
   
 @keyframes rotBGimg {
     from {
