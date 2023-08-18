@@ -157,6 +157,8 @@ button {
  @media (max-width: 1200px) {
   .about-us__container {
     flex-direction: column-reverse;
+    text-align: center;
+    padding: 20px;
   }
   .mark{
 

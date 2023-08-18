@@ -83,5 +83,12 @@
 }
 
 @media (max-width: 1200px) {
+ .clients__container{
+  text-align: center;
+  padding: 20px;
+ }
 
+ .testimonials__rating{
+  align-self: center;
+ }
 }

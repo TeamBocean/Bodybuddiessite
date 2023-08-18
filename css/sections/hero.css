@@ -1,5 +1,6 @@
 .hero{
   margin-top: 100px;
+
 }
 
 
@@ -46,6 +47,7 @@ video{
   margin-left: -50vw;
   margin-right: -50vw;
   margin-bottom: 100px;
+
 }
 
 .stripe span {
@@ -58,6 +60,7 @@ video{
 .hero__buttons {
   max-width: 400px;
   display: flex;
+  float: left;
   gap: 20px;
 }
 
@@ -119,6 +122,7 @@ video{
   background-color: var(--secondary-color);
   height: 70px;
   position: relative;
+  /* width: 100vw; */
   overflow: hidden;  /* To ensure the overflowing part of the text is hidden */
 }
 
@@ -157,11 +161,14 @@ video{
 @media (max-width: 1200px) {
 .hero__content{
   flex-direction: column;
+  padding: 20px;
 }
 .text-wrapper{
   text-align: center;
 }
 .hero__buttons{
-  
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
 }
 }
