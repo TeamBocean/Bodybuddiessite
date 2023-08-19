@@ -13,7 +13,8 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "aos": "^2.3.4"
+    "aos": "^2.3.4",
+    "jquery": "^3.7.0"
   },
   "main": "index.js",
   "author": "",
