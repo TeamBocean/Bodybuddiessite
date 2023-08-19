@@ -263,6 +263,32 @@
 .pricing__subtitle{
   font-size: 32px;
 }
+.modal{
+
+}
+.modal-content {
+  background-color: black;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px; 
+  width: 90%;
+  z-index: 3; /* Added for higher stacking order */
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: 14px;
+}
+
+.modal-content h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  line-height: 2rem;
+}
+.modal-content h4{
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: var(--secondary-color);
+}
 }
 
 @media (max-width: 768px) {
