@@ -6,7 +6,7 @@ AOS.init({
     offset: 100,
 });
 
-document.addEventListener('DOMContentLoaded', function () {
+$(function(){
 
     var parent = $(".parent_div")
 
