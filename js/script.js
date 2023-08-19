@@ -63,7 +63,21 @@ $(function(){
             $('.parent_div').css("filter", "none")
         }
     }
+
+
+
+
+    $(".header__menu li").on("click", function (event) {
+        $('#check').prop('checked', false); 
+        console.log(event.target)
+    });
+    
 });
 
 
 
+// modal.css("display", "flex");
+
+// $('.header__menu').css("display", "none")
+// $('.header__menu').css("left", "-100%")
+// $('#check').css("display", "none")
