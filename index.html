@@ -411,11 +411,12 @@
       </div>
 
       <div class="contact__form-container">
-        <form action="BodyBuddies" method="POST" class="contact__form">
-          <input type="text" name="name" placeholder="Name" class="contact__input">
-          <input type="email" name="email" placeholder="Email" class="contact__input">
-          <input type="text" name="subject" placeholder="Subject" class="contact__input">
-          <textarea name="message" rows="6" placeholder="Message" class="contact__textarea"></textarea>
+        <form action="https://formsubmit.co/bodybuddiespt@gmail.com" method="post" class="contact__form">
+          <input id="name" type="text" name="name" id="name" placeholder="Name" class="contact__input">
+          <input id="email" type="email" name="email" placeholder="Email" class="contact__input" required>
+          <input id="subject" type="text" name="subject" placeholder="Subject" class="contact__input" required>
+          <input id="number" type="number" name="phone" placeholder="Phone" class="contact__input" required>
+          <textarea id="message" name="message" rows="6" placeholder="Message" class="contact__textarea" required></textarea>
           <button type="submit" class="contact__button">Send Message</button>
         </form>
       </div>
