@@ -143,7 +143,12 @@ button {
  }
 
  @media (max-width: 480px) {
-
+  .mark{
+    width: 300px;
+  }
+  .about-us__subtitle{
+    font-size: 32px;
+  }
  }
  
  @media (max-width: 768px) {
@@ -160,7 +165,8 @@ button {
     text-align: center;
     padding: 20px;
   }
-  .mark{
 
+  .about-us__description{
+    padding: 20px;
   }
  }

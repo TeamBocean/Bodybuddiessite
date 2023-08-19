@@ -67,7 +67,9 @@
 /* Responsive layout for smaller devices */
 
 @media (max-width: 480px) {
-
+.clients-info__subtitle{
+  font-size: 32px;
+}
 }
 
 @media (max-width: 768px) {

@@ -112,3 +112,29 @@ ul{
 .footer-bottom span{
    color: #2065FF;
 }
+
+/* Responsive */
+
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+@media(max-width: 767px) {
+    .social-links {
+        flex-direction: column;
+    }
+
+    .footer .row{
+        gap: 20px;
+    }
+    .footer-bottom p {
+        padding: 20px;
+    }
+}

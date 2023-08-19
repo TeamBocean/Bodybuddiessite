@@ -147,6 +147,7 @@
   flex-direction: column;
   gap: 10px;
 }
+
   
 @keyframes rotBGimg {
     from {
@@ -180,6 +181,7 @@
   z-index: 1000;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .modalTwo {
@@ -192,6 +194,8 @@
   z-index: 1000;
   justify-content: center;
   align-items: center;
+
+
 }
 .modalThree{
   display: none;
@@ -203,6 +207,7 @@
   z-index: 1000;
   justify-content: center;
   align-items: center;
+
 }
 
 .modal-content {
@@ -212,6 +217,19 @@
   max-width: 600px; 
   width: 90%;
   z-index: 3; /* Added for higher stacking order */
+  text-align: center;
+  line-height: 2.4rem;
+}
+
+.modal-content h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.modal-content h4{
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: var(--secondary-color);
 }
 
 .close-btn {
@@ -239,8 +257,12 @@
   pointer-events: none;
 } */
 
-@media (max-width: 480px) {
+/* Responsive */
 
+@media (max-width: 480px) {
+.pricing__subtitle{
+  font-size: 32px;
+}
 }
 
 @media (max-width: 768px) {
@@ -257,5 +279,8 @@
   }
 .pricing__content{
   flex-direction: column;
+}
+.pricing__subtitle{
+  text-wrap: balance;
 }
 }

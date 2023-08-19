@@ -10,7 +10,7 @@
   left: 0;
   padding: 0 5%;
   background-color: #111111;
- height: 100px;
+  height: 100px;
 }
 
 .logo{
@@ -23,6 +23,11 @@
   margin-left: 10px;
   font-size: 32px;
 }
+
+.header__logo ion-icon:hover{
+  color: var(--secondary-color);
+}
+
 
 .header__logo {
   display: flex;
@@ -44,6 +49,10 @@
   
 }
 
+.header__menu li:hover{
+  color: var(--secondary-color);
+}
+
 .header__menu li a {
     transition: all 0.3s ease;
 }
@@ -56,8 +65,11 @@
   font-weight: 700;
   color: black;
   background-color: var(--secondary-color);
-  font-family: "Plus Jakarta Sans", sans-serif;;
-  
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.header__btn-started:hover{
+   color: white;
 }
 
 .checkbtn {
@@ -73,17 +85,25 @@
   display: none;
 }
 
-@media (max-width: 480px) {
+/* Resonsive */
 
+@media (max-width: 480px) {
+.checkbtn{
+    font-size: 24px
+  }
+  .header__logo ion-icon{
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 768px) {
 
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1067px) {
   .checkbtn{
     display: block;
+    margin-right: 20px;
   }
 
   .header__menu {
@@ -95,10 +115,11 @@
     text-align: center;
     transition: all .5s;
     z-index: 100;
+    height: 100vh;
   }
   .header__menu li {
     display: block;
-    margin: 10px 0;
+    margin: 40px 0;
   }
 
   #check:checked ~ .header__menu{
@@ -107,7 +128,7 @@
 
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1767px) {
 
 }
 
