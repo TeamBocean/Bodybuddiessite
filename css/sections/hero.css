@@ -23,7 +23,7 @@ video{
 
 .hero__title {
   font-size: 64px;
-  font-family: 'Grifter', 'sans-serif';
+  font-family: 'GRIFTER', 'sans-serif';
   margin-top: 80px;
 }
 
@@ -52,7 +52,7 @@ video{
 
 .stripe span {
   color: black;
-  font-family:  'Grifter', 'sans-serif';
+  font-family:  'GRIFTER', 'sans-serif';
   margin-right: 100px;
   font-weight: bold;
 }
@@ -132,7 +132,7 @@ video{
   left: 100%;  /* Start from the right end of the container */
   animation: scrollText 25s linear infinite; /* Animation to scroll the text */
   color: black;
-  font-family: 'Grifter', 'sans-serif';
+  font-family: 'GRIFTER', 'sans-serif';
   font-size: 40px;
   
 }
