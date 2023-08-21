@@ -10,6 +10,8 @@
 .pricing__subtitle {
   font-size: 40px;
   font-family: 'GRIFTER', 'sans-serif';;
+  font-weight: bold;
+  font-style: normal;
   text-align: center;
   line-height: 60px;
   margin-bottom: 20px;

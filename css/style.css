@@ -18,9 +18,12 @@
 
 @font-face {
   font-family: 'GRIFTER';
-  src: url('GRIFTERBold.woff2') format('woff2'),
-      url('GRIFTERBold.woff') format('woff'),
-      url('GRIFTERBold.ttf') format('truetype');
+  src: url('/assets/GRIFTERBold.eot');
+  src: url('/assets/GRIFTERBold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/GRIFTERBold.woff2') format('woff2'),
+      url('/assets/GRIFTERBold.woff') format('woff'),
+      url('/assets/GRIFTERBold.ttf') format('truetype'),
+      url('/assets/GRIFTERBold.svg#GRIFTERBold') format('svg');
   font-weight: bold;
   font-style: normal;
   font-display: swap;
