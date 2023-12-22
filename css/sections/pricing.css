@@ -21,23 +21,23 @@
   font-size: 20px;
   text-align: center;
   font-family: 'GRIFTER', 'sans-serif';
-  z-index: 3; /* Added for higher stacking order */
+  z-index: 3; 
 }
 
 .card__price {
   color: var(--secondary-color);
   font-size: 34px;
   font-weight: 700;
-  z-index: 3; /* Added for higher stacking order */
+  z-index: 3; 
 }
 
 .card__session {
   margin-top: -10px;
-  z-index: 3; /* Added for higher stacking order */
+  z-index: 3; 
 }
 
 .card__session-frequency {
-  z-index: 3; /* Added for higher stacking order */
+  z-index: 3; 
   margin-top: -10px;
 }
 
@@ -58,7 +58,7 @@
 
 .pricing__content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;  
 }
 
@@ -75,7 +75,7 @@
 }
 
 .card__cta-button {
-  padding: 10px 20px;
+  padding: 10px 12px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -97,14 +97,14 @@
   color: var(--secondary-color);
 }
 
-.pricing__card.pricing__card-2 {
+/* .pricing__card.pricing__card-2 {
     position: relative;
     display: flex;
     place-content: center;
     place-items: center;
     overflow: hidden;
     border-radius: 5px;
-}
+} */
   
 .pricing__card.pricing__card-2 h2 {
     z-index: 3;
@@ -295,6 +295,7 @@
 }
 
 @media (max-width: 1024px) {
+  
 
 }
 
